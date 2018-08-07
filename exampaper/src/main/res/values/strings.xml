@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SmartExampaper</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="scan">Scan</string>
+    <string name="no_device">None device</string>
+
+    <string name="location_permission_tips">Application can be used if you grant location permission</string>
+    <string name="device_nearbay">Devices</string>
+    <string name="sdcard_permission_tips">Application can be used if you grant sdcard permission</string>
+    <string name="clear_tips">Clear the history?</string>
+    <string name="connected">Connected</string>
+    <string name="unconnected">Unconnected</string>
+    <string name="permission_tips">Application  need  permission :</string>
+    <string name="permission">permission</string>
+    <string name="sdcard">sdcard</string>
+    <string name="location">location</string>
+    <string name="loading_commit">Committing</string>
+    <string name="question">Question</string>
+
+</resources>

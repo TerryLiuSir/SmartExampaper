@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resultPaperUI.Page3Activity">
+
+    <TextView
+        android:id="@+id/choice_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="二,填空题"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
+
+
+    <TextView
+        android:id="@+id/question_num_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="题号"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choice_title"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/correct_answer_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:text="正确答案"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/question_num_title"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/question_num_title"
+        app:layout_constraintTop_toTopOf="@+id/question_num_title"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/student_answer_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="学生答案"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/correct_answer_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.584"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/correct_answer_title"
+        app:layout_constraintTop_toTopOf="@+id/correct_answer_title"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <TextView
+        android:id="@+id/title_question13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="13"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/question_num_title"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="@+id/question_num_title"
+        app:layout_constraintTop_toBottomOf="@+id/question_num_title"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <TextView
+        android:id="@+id/title_question14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="14"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/question_num_title"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="@+id/question_num_title"
+        app:layout_constraintTop_toBottomOf="@+id/title_question13"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <TextView
+        android:id="@+id/title_question15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="15"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/question_num_title"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="@+id/question_num_title"
+        app:layout_constraintTop_toBottomOf="@+id/title_question14"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <TextView
+        android:id="@+id/title_question16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="16"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/question_num_title"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="@+id/question_num_title"
+        app:layout_constraintTop_toBottomOf="@+id/title_question15"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <TextView
+        android:id="@+id/title_question17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="17"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/question_num_title"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="@+id/question_num_title"
+        app:layout_constraintTop_toBottomOf="@+id/title_question16"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <TextView
+        android:id="@+id/title_question18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="18"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/question_num_title"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="@+id/question_num_title"
+        app:layout_constraintTop_toBottomOf="@+id/title_question17"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <TextView
+        android:id="@+id/correct_answer13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="k＞0"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/title_question13"
+        app:layout_constraintEnd_toEndOf="@+id/correct_answer_title"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="@+id/correct_answer_title"
+        app:layout_constraintTop_toTopOf="@+id/title_question13"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/correct_answer14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="1/3"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/title_question14"
+        app:layout_constraintEnd_toEndOf="@+id/correct_answer_title"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="@+id/correct_answer_title"
+        app:layout_constraintTop_toTopOf="@+id/title_question14"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/correct_answer15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="1/4"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/title_question15"
+        app:layout_constraintEnd_toEndOf="@+id/correct_answer_title"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="@+id/correct_answer_title"
+        app:layout_constraintTop_toTopOf="@+id/title_question15"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/correct_answer16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="6000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/title_question16"
+        app:layout_constraintEnd_toEndOf="@+id/correct_answer_title"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="@+id/correct_answer_title"
+        app:layout_constraintTop_toTopOf="@+id/title_question16"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/correct_answer17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="208"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/title_question17"
+        app:layout_constraintEnd_toEndOf="@+id/correct_answer_title"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="@+id/correct_answer_title"
+        app:layout_constraintTop_toTopOf="@+id/title_question17"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/correct_answer18"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/qus18"
+        app:layout_constraintBottom_toBottomOf="@+id/title_question18"
+        app:layout_constraintEnd_toEndOf="@+id/correct_answer_title"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="@+id/correct_answer_title"
+        app:layout_constraintTop_toTopOf="@+id/title_question18"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/student_answer13"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/correct_answer13"
+        app:layout_constraintEnd_toEndOf="@+id/student_answer_title"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="@+id/student_answer_title"
+        app:layout_constraintTop_toTopOf="@+id/correct_answer13"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/student_answer14"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/correct_answer14"
+        app:layout_constraintEnd_toEndOf="@+id/student_answer_title"
+        app:layout_constraintHorizontal_bias="0.395"
+        app:layout_constraintStart_toStartOf="@+id/student_answer_title"
+        app:layout_constraintTop_toTopOf="@+id/correct_answer14"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/student_answer15"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/correct_answer15"
+        app:layout_constraintEnd_toEndOf="@+id/student_answer_title"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="@+id/student_answer_title"
+        app:layout_constraintTop_toTopOf="@+id/correct_answer15"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/student_answer16"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/correct_answer16"
+        app:layout_constraintEnd_toEndOf="@+id/student_answer_title"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="@+id/student_answer_title"
+        app:layout_constraintTop_toTopOf="@+id/correct_answer16"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/student_answer17"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/correct_answer17"
+        app:layout_constraintEnd_toEndOf="@+id/student_answer_title"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="@+id/student_answer_title"
+        app:layout_constraintTop_toTopOf="@+id/correct_answer17"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/student_answer18"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/correct_answer18"
+        app:layout_constraintEnd_toEndOf="@+id/student_answer_title"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="@+id/student_answer_title"
+        app:layout_constraintTop_toTopOf="@+id/correct_answer18"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button_page3next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="下一页"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_page3pre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_page3pre"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button_page3pre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="上一页"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.982" />
+
+
+</android.support.constraint.ConstraintLayout>

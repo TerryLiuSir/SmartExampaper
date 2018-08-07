@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SmartExampaper</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="scan">扫描</string>
+    <string name="no_device">未找到设备</string>
+    <string name="app_unready">App异常</string>
+    <string name="no_writing">还没有书写内容..</string>
+
+    <string name="location_permission_tips">Application can be used if you grant location permission</string>
+    <string name="device_nearbay">周边设备</string>
+    <string name="sdcard_permission_tips">Application can be used if you grant sdcard permission</string>
+    <string name="clear_tips">确定要清空本次考试记录?</string>
+    <string name="sellect_book_tips">您还没有书写任何内容!</string>
+    <string name="sellect_device_tips">请绑定手写笔!</string>
+    <string name="login_tips">请先登录!</string>
+
+    <string name="connected">已连接</string>
+    <string name="unconnected">未连接</string>
+    <string name="permission_tips">需要授权权限：</string>
+    <string name="sdcard">读取sd卡</string>
+    <string name="location">获取位置信息</string>
+    <string name="phone_state">获取手机信息</string>
+    <string name="state">状态\n%d</string>
+
+    <string name="loading_commit">正在提交</string>
+    <string name="question">题目\n%d</string>
+    <string name="page">页\n%d</string>
+    <string name="book">书\n%d</string>
+    <string name="chapter">章节\n%s</string>
+    <string name="row">行\n%d</string>
+    <string name="no_submit">您还没有提交作业!</string>
+    <string name="realize_error">识别异常!</string>
+
+</resources>
